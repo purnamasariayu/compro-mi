@@ -63,7 +63,7 @@
     if(testCarousel.length > 0){
         testCarousel.owlCarousel({
             items : 1,
-            dots : false,
+            dots : true,
             autoplay : true
         });
     }
@@ -79,6 +79,16 @@
             items : 1,
             dots : true,
             autoplay : false
+        });
+    }
+    ;
+
+    var demoslider = $('#demoslider');
+    if(demoslider.length > 0){
+        demoslider.owlCarousel({
+            items : 1,
+            dots : true,
+            autoplay : true
         });
     }
     ;

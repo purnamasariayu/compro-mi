@@ -33,6 +33,7 @@
 
 :root {
     --mired: #982323;
+    --poppins: 'Poppins', sans-serif;
 }
 
 /*=======================================================================
@@ -465,7 +466,7 @@
 [04] TEAM
 =========================================================================*/
 .team{
-    padding: 89px 0;
+    padding: 89px 0 0;
     background: #f4f4f4;
 }
 .epr200{
@@ -475,7 +476,7 @@
     width: 100%;
 }
 .singleTestm p{
-    font-size: 40px;
+    font-size: 36px;
     color: #000000;
     font-weight: 300;
     line-height: 50px;
@@ -501,6 +502,7 @@
     width: 200px;
     left: -224px;
     top: 23px;
+    display: none;
 }
 .testmonial::after {
     content: "\f104";
@@ -510,6 +512,7 @@
     top: -17px;
     font-size: 27px;
     color: var(--mired);
+    display: none;
 }
 .singleTeam{
     text-align: center;
@@ -1097,7 +1100,7 @@
     right: -5px;
     background: transparent;
     font-size: 14px;
-    color: #fe0060;
+    color: var(--mired);
     text-transform: uppercase;
     border: none;
     font-weight: 700;
@@ -1234,7 +1237,8 @@
     position: relative;
 }
 .aboutTop.home_page2 {
-    background: url("../images/bg/7.jpg") no-repeat scroll center center / cover ;
+    /*background: url("../images/bg/7.jpg") no-repeat scroll center center / cover ;*/
+    background: #fff;
 }
 .whatwe.home_page2{
     background: url("../images/bg/8.jpg") no-repeat scroll center center / cover ;
@@ -1388,7 +1392,8 @@
     position: relative;
 }
 .perelaxBg1 {
-    background: rgba(0, 0, 0, 0) url("../images/bg/p1.png") no-repeat center 0 ;
+    /*background: rgba(0, 0, 0, 0) url("../images/bg/p1.png") no-repeat center 0 ;*/
+    background: rgba(0, 0, 0, 0) url("../images/mi/indonesian-map.png") no-repeat center/cover;
     left: 0;
     position: absolute;
     right: 0;
@@ -2423,4 +2428,67 @@
     border-color: #313131
 }
 
+/*custom*/
+.abBigtitle h1.lead{
+    font-family: var(--poppins);
+    white-space: nowrap;
+}
+.slider2{
+    position: relative;
+}
+.slider2::before{
+    content: "";
+    width: 100%;
+    height: 150px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    z-index: 9;
+    background: url(../images/mi/hero-divider.png) no-repeat center;
+    pointer-events: none;
+}
+.lead{
+    font-weight: 700;
+}
 
+.demographic{
+    padding: 60px 0 0;
+    background: url(../images/mi/demographic-bg.jpg) no-repeat center fixed;
+    background-size: cover;
+}
+.demographic .row:first-child{
+    /*margin-bottom: 40px;*/
+}
+.demographic .sectionTitle h5,
+.demographic .sectionTitle h3{
+    color: #fff;
+}
+.demoslider .row{
+    display: flex;
+    justify-content: center;
+}
+.demoslider h1{
+    font-size: 48px;
+    color: #fff;
+}
+.demoslider h3{
+    font-size: 36px;
+    color: #fff;
+}
+.demoslider p{
+    color: #fff;
+}
+.demoslider .col-md-4,
+.demoslider .col-md-2,
+.demoslider .col-md-6{
+    padding: 0 15px;
+}
+.demoslider .d-card{
+    padding: 50px 0;
+    /*background: url(../images/mi/badge.svg) no-repeat center bottom;
+    background-size: cover;*/
+    background: var(--mired);
+}

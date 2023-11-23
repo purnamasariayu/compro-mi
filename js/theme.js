@@ -80,8 +80,7 @@
             dots : true,
             autoplay : false
         });
-    }
-    ;
+    };
 
     var demoslider = $('#demoslider');
     if(demoslider.length > 0){
@@ -90,8 +89,15 @@
             dots : true,
             autoplay : true
         });
-    }
-    ;
+    };
+    var statslider = $('#statslider');
+    if(statslider.length > 0){
+        statslider.owlCarousel({
+            items : 3,
+            dots : false,
+            autoplay : true
+        });
+    };
 
     /*=======================================================================
      [04] WORK CAROUSEL

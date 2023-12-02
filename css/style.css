@@ -539,9 +539,10 @@
 [05] WHAT WE DO
 =========================================================================*/
 .whatwe{
-    background: url(../images/bg/2.jpg) no-repeat scroll center center/cover;
-    padding-top: 253px;
-    padding-bottom: 223px;
+    background: url(../images/bg/2.jpg) no-repeat center fixed;
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 .wedoContent{}
 .wedoContent h5 {
@@ -1241,7 +1242,7 @@
     background: #fff;
 }
 .whatwe.home_page2{
-    background: url("../images/bg/8.jpg") no-repeat scroll center center / cover ;
+    background: url("../images/mi/whatwe-bg.jpg") no-repeat fixed center center / cover ;
 }
 .overlayHover{
     background: rgba(38, 38, 38, 0.3);

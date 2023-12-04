@@ -1059,7 +1059,7 @@
     background: #0071B9
 }
 .newsletterwid {
-    padding-top: 85px;
+    padding-top: 0;
     padding-left: 40px;
 }
 .newsletter{
@@ -2508,6 +2508,43 @@
     padding: 50px 0;
     background: #fff;
     border: 1px solid #dedede;
+}
+
+i.fa.fa-facebook::before,
+i.fa.fa-twitter::before,
+i.fa.fa-instagram::before,
+i.fa.fa-youtube::before,
+i.fa.fa-tiktok::before{
+    display: none;
+}
+i.fa.fa-facebook,
+i.fa.fa-twitter,
+i.fa.fa-instagram,
+i.fa.fa-youtube,
+i.fa.fa-tiktok{
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+}
+i.fa.fa-facebook{
+    background: url(../images/mi/somed-icons/facebook.svg) no-repeat center;
+    background-size: contain;
+}
+i.fa.fa-twitter{
+    background: url(../images/mi/somed-icons/twitter-x.svg) no-repeat center;
+    background-size: contain;
+}
+i.fa.fa-youtube{
+    background: url(../images/mi/somed-icons/youtube.svg) no-repeat center;
+    background-size: contain;
+}
+i.fa.fa-instagram{
+    background: url(../images/mi/somed-icons/instagram.svg) no-repeat center;
+    background-size: contain;
+}
+i.fa.fa-tiktok{
+    background: url(../images/mi/somed-icons/tiktok.svg) no-repeat center;
+    background-size: contain;
 }
 
 @media (min-width: 992px){

@@ -2547,10 +2547,68 @@ i.fa.fa-tiktok{
     background-size: contain;
 }
 
+section{
+    width: 100%;
+    overflow-x: hidden;
+}
+
 @media (min-width: 992px){
     .col-fifth{
         width: 20%;
         padding: 0 15px;
         float: left;
     }
+
 }
+@media (max-width: 991px){
+    .abcontentT h3.lead{
+        font-size: 28px;
+        line-height: 150%;
+    }
+    .abBigtitle h1.lead{
+        white-space: initial;
+    }
+    .abcontentB h5.lead{
+        font-size: 28px;
+    }
+    .abcontentB h3.light{
+        font-size: 16px;
+        line-height: 150%;
+    }
+    .perelaxBg2{
+        display: none;
+    }
+    .whatwe h3.lead{
+        font-size: 36px;
+    }
+    .ourwork{
+        padding-top: 0;
+    }
+    #ourwork .sectionTitle h2.lead{
+        font-size: 36px;
+        line-height: 120%;
+    }
+    #ourwork .sectionTitle p{
+        font-size: 16px;
+        line-height: 150%;
+    }
+    .single_folio .polioThumb img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    #ourwork .container-fluid .col-sm-8 .single_folio.single_folio2{
+        height: 225px;
+    }
+    .client .singleClient{
+        width: 100%;
+        height: 100px;
+    }
+    .fooInfo{
+        margin-top: 40px;
+    }
+    .singleService h6.lead{
+        line-height: 150%;
+    }
+}
+

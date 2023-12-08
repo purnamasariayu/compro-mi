@@ -95,7 +95,17 @@
         statslider.owlCarousel({
             items : 3,
             dots : false,
-            autoplay : true
+            autoplay : true,
+            responsive : {
+                0 : {
+                    items : 1,
+                    dots : true
+                },
+                991 : {
+                    items : 3,
+                    dots : true
+                }
+            }
         });
     };
 

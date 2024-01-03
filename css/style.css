@@ -2552,6 +2552,76 @@ section{
     overflow-x: hidden;
 }
 
+.justify-content-center{
+    display: flex;
+    justify-content: center;
+}
+.big-video-wrap img{
+    width: 100%;
+}
+.video-section{
+    position: relative;
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+.video-section .video-bg{
+    z-index: 0;
+    position: absolute;
+    width: 100%;
+    height: 590px;
+    top: 0;
+    left: 0;
+}
+
+.program-cover{
+    text-align: center;
+    padding: 100px 0;
+    background: url(../images/bg/6.jpg) no-repeat;
+    background-position-y: -100%;
+}
+.program-cover h2,
+.program-cover h1{
+    font-size: 100px;
+    font-family: var(--poppins);
+    font-weight: 700;
+    margin-bottom: 60px;
+}
+
+.ratio{
+    width: 100%;
+    height: 0;
+    position: relative;
+}
+.ratio img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.ratio-75{
+    padding-top: 75%;
+}
+.ratio-16{
+    padding-top: 56.25%;
+}
+.ratio-1{
+    padding-top: 100%;
+}
+
+.mb-40{
+    margin-bottom: 40px;
+}
+.py-80{
+    padding: 80px 0;
+}
+
+.program .aboutBottom.home_page2{
+    padding-bottom: 0;
+    padding-top: 100px;
+}
+
 @media (min-width: 992px){
     .col-fifth{
         width: 20%;
